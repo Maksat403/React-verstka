@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: #7c44f1;
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_image,
+.header_image1 {
+  width: 268px;
+  height: 315px;
+  position: absolute;
+}
+
+.header_image {
+  top: 200px;
+  right: 0px;
+}
+
+.header_image1 {
+  top: 389px;
+  right: 180px;
+}
+
+.headerInfo p {
+  position: relative;
+  top: 181px;
+  font-size: 104px;
+  left: 32px;
+}
+
+.headerInfo span {
+  position: relative;
+  font-size: 32px;
+  top: 200px;
+  left: 32px;
+}

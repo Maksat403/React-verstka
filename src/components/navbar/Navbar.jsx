@@ -1,13 +1,13 @@
 import images from "./images/Frame.png";
 import style from "./navbar.module.css";
 
-export default function () {
+export default function Navbar() {
   return (
     <div className={style.navbar}>
-      <div className="logo">
+      <div className={style.logo}>
         <img src={images} alt="" />
       </div>
-      <div className="info">
+      <div className={style.info}>
         <ul>
           <li>Grow your career</li>
           <li>Build a team</li>

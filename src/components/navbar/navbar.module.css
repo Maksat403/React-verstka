@@ -1,3 +1,38 @@
 * {
-  background-color: red;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 85px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div img {
+  width: 90%;
+  height: auto;
+  margin-left: 15%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
 }
